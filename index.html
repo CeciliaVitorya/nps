@@ -4,10 +4,23 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Pesquisa NPS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    /* Estilos para responsividade em clientes que suportam media queries */
+    @media only screen and (max-width: 480px) {
+      .desktop-only { display: none !important; }
+      .mobile-only { display: block !important; }
+      .container-table { width: 100% !important; }
+      .button-cell { width: 30px !important; height: 30px !important; }
+      .button-link { line-height: 30px !important; font-size: 13px !important; }
+    }
+    @media only screen and (min-width: 481px) {
+      .mobile-only { display: none !important; }
+    }
+  </style>
 </head>
 <body style="margin: 0; padding: 0; background-color: #ffffff;">
 
-  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td align="center" style="padding: 20px 0;">
         
@@ -18,48 +31,42 @@
             </td>
           </tr>
           <tr>
-            <td align="center" style="padding: 0 5px 30px 5px;">
+            <td align="center" style="padding: 0 10px 30px 10px;">
               
-              <table border="0" cellpadding="0" cellspacing="0" width="98%">
+              <table border="0" cellpadding="0" cellspacing="4">
                 <tr>
-                  <td align="center">
-                    <table border="0" cellpadding="0" cellspacing="2">
-                      <tr>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">0</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">1</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">2</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">3</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">4</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">5</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">6</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">7</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">8</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">9</a>
-                        </td>
-                        <td align="center" width="32" height="32" bgcolor="#FF6600" style="border-radius: 3px;">
-                          <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 32px;">10</a>
-                        </td>
-                      </tr>
-                    </table>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">0</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">1</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">2</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">3</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">4</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">5</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">6</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">7</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">8</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">9</a>
+                  </td>
+                  <td align="center" class="button-cell" width="45" height="45" bgcolor="#FF6600" style="border-radius: 4px;">
+                    <a href="https://lps.netcomfibra.com.br/geral-agradecimento" target="_blank" class="button-link" style="font-size: 16px; font-family: Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; line-height: 45px;">10</a>
                   </td>
                 </tr>
               </table>
